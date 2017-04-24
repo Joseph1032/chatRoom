@@ -1,0 +1,13 @@
+{
+  "name": "chatRoom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Josephine Gabrielle Baltazar <jgsbaltazar@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "socket.io": "^1.7.3"
+  }
+}

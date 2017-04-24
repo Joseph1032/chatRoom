@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <body>
+            <div id="userFormArea" class="row">
+                    <form id="userForm">
+                        <ul id='users'></ul>
+                        <label>Enter Username</label>
+                        <input type='text' id='username' placeholder='name'/><br />
+                        <input type='submit' id='submit' value="Enter"/>
+                    </form>
+            </div>
+
+            <div id="messageArea">
+                <div id="container">
+                    <h1>Express Chat</h1>
+                    <div id='messageBox'>
+                        <ul id='messages'></ul><br />
+                    </div>
+                    <input type='text' id='test'>
+                    <button id='send'>Submit</button>      
+                </div>
+            </div>
+        </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+        <script src='main.js'></script>
+    </head>
+</html>

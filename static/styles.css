@@ -1,0 +1,58 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/*#messageArea {
+    display:none;
+}*/
+#container {
+    margin:auto;
+    margin-top:5%;
+    padding:10px;
+    border:1px solid #eeeeee;
+    width:350px;
+    background-color:#d2d2d2;
+}
+h1 {
+    color: #ff21be;
+    text-align: center;
+    font-family: Verdana;
+}
+#test {
+    height:30px;
+    width:270px;
+    font-size:15px;
+    margin-top:100%;
+    text-indent: 10px;
+}
+button {
+    height:30px;
+    float:right;
+    margin-top:100%;
+}
+#messageBox {
+    background-color:white;
+    height:320px;
+    border:1px solid black;
+    width:322px;
+    position:absolute;
+    overflow:scroll;
+}
+.users {
+    border:1px solid black;
+    height:50px;
+    width:100px;
+    position:absolute;
+}
+#userFormArea {
+    margin:auto;
+    margin-top: 5%;
+    padding:5%;
+    padding-top: 2%;
+    height:150px;
+    width:300px;
+    border:1px solid gray;
+}
+#username {
+    height:30px;
+    display:flex;
+}
